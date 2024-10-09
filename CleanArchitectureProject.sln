@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.Application", "ToDoApp.Application\ToDoApp.Application.csproj", "{5D35B632-5A55-4D0C-B3B9-8AD267ED6065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{46CBABCB-5D8E-4C00-B49D-A5CA7C59E0FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8D9DB992-D1EC-4E79-8EA8-591ABBCA0436}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{800B2215-6F09-49E7-94CF-EFD71D6EFC0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.Infrastructure", "ToDoApp.Infrastructure\ToDoApp.Infrastructure.csproj", "{4FD9EFE9-0D73-4E91-89B1-0863796AC5B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp.Persistence", "ToDoApp.Persistence\ToDoApp.Persistence.csproj", "{B5C0976A-FD6F-4B92-9DF2-EFA0547BAD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Domain", "ToDoApp.Domain\ToDoApp.Domain.csproj", "{F8042DE5-370D-4FCC-9815-8EF0CD022C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Api", "ToDoApp.Api\ToDoApp.Api.csproj", "{D29E25A6-9301-4E25-BBCB-12F2ECF217F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D35B632-5A55-4D0C-B3B9-8AD267ED6065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D35B632-5A55-4D0C-B3B9-8AD267ED6065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D35B632-5A55-4D0C-B3B9-8AD267ED6065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D35B632-5A55-4D0C-B3B9-8AD267ED6065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD9EFE9-0D73-4E91-89B1-0863796AC5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD9EFE9-0D73-4E91-89B1-0863796AC5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD9EFE9-0D73-4E91-89B1-0863796AC5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD9EFE9-0D73-4E91-89B1-0863796AC5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C0976A-FD6F-4B92-9DF2-EFA0547BAD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C0976A-FD6F-4B92-9DF2-EFA0547BAD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C0976A-FD6F-4B92-9DF2-EFA0547BAD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C0976A-FD6F-4B92-9DF2-EFA0547BAD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8042DE5-370D-4FCC-9815-8EF0CD022C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8042DE5-370D-4FCC-9815-8EF0CD022C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8042DE5-370D-4FCC-9815-8EF0CD022C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8042DE5-370D-4FCC-9815-8EF0CD022C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29E25A6-9301-4E25-BBCB-12F2ECF217F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29E25A6-9301-4E25-BBCB-12F2ECF217F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29E25A6-9301-4E25-BBCB-12F2ECF217F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29E25A6-9301-4E25-BBCB-12F2ECF217F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D35B632-5A55-4D0C-B3B9-8AD267ED6065} = {46CBABCB-5D8E-4C00-B49D-A5CA7C59E0FD}
+		{4FD9EFE9-0D73-4E91-89B1-0863796AC5B7} = {8D9DB992-D1EC-4E79-8EA8-591ABBCA0436}
+		{B5C0976A-FD6F-4B92-9DF2-EFA0547BAD57} = {8D9DB992-D1EC-4E79-8EA8-591ABBCA0436}
+		{F8042DE5-370D-4FCC-9815-8EF0CD022C19} = {46CBABCB-5D8E-4C00-B49D-A5CA7C59E0FD}
+		{D29E25A6-9301-4E25-BBCB-12F2ECF217F4} = {800B2215-6F09-49E7-94CF-EFD71D6EFC0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {626A2506-EFA7-489F-B3C4-310EFD36DD9B}
+	EndGlobalSection
+EndGlobal
